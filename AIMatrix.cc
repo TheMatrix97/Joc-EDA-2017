@@ -37,6 +37,15 @@ struct PLAYER_NAME : public Player {
      * You have to read the board and place your actions
      * for this round.
      */
+  /*   bool is_mybike(vector<int> motos_vecinas, int &i){
+		int i = 0;
+		for(int j = 0; j < (int)motos_vecinas.size(); j++){
+			if(bikes(motos_vecinas[j]).player == me()) {i = j; return true;}
+		}
+		return false;
+	 
+	 
+	 }*/
      //pre a contiene vecinos vacios de n
      //post b contiene vecinos vacios no amenazados por otras motos
     void bfs_dist2(vector<int> &a, set<int> &b){
@@ -49,19 +58,28 @@ struct PLAYER_NAME : public Player {
 			}
 		}
 	}
-	bool moto_vecina(vector<int>&a, set<int>&loc_motos){ //si hay motos vecinas, hay que evitar los vecinos compartidos
-		for(int i = 0; i < (int)a.size(); i++){
-			if(vertex(a[i]).bike != -1) loc_motos.insert();
+	set<int> evitar_choque(vector<int>&a, vector<int>&loc_motos){
+		set<int> aux;
+		for(int i = 0; i < (int)loc_motos.size(); i++){
+			for(int j = 0; j < (int)a.size(); j++){ //encontrar coincidencias entre vecinos
+					if(a[j] != loc_motos[i] and not is_neighbour(a[j], loc_motos[i])){
+						 cerr << a[j] << ' ' << loc_motos[i] << "no son vecinos"; 
+						 aux.insert(a[j]); //seguro que no crasheo, pork no son vecinos
+				}
+			}
 		}
+
+		return aux;
 	}
-		
 				
 			
 			
 			
 			
+			/*IDEAS:
+			 * MIRAR SCREENSHOT EN IMAGES, HAY QUE CAMBIAR EL CODIGO PARA EVITAR CRASHES, HABRIA QUE MIRAR SI EL VECINO X TIENE ALGUNA MOTO DE VECINO EXCEPTO TU, SI ES ASI NO QUEREMOS IR!!!
+			 * EN EL SCREEN LAS MOTOS NO SE ESQUIVAN PORK NO SON VECINAS*/
 			
-		 
 		
 		
     void play () {
@@ -84,35 +102,58 @@ struct PLAYER_NAME : public Player {
 			// Find all empty neighbours
 			vector<int> neighbours = vertex(my_bike.vertex).neighbours;
 			vector<int> empty_neighbours;
+			vector<int> motos_vecinas;
+			
 			for (int i = 0; i < (int)neighbours.size(); i++) {
 				int id = neighbours[i];
 				if (vertex(id).wall == -1) {
 					empty_neighbours.push_back(id);
 				}
+				if(vertex(id).bike != -1) motos_vecinas.push_back(id);
 			}
 				
 			
 			// Create an empty movement
 			Movement movement(my_bike.id);
 			// Set next_vertex to a random empty neighbour, if any, or to a random neighbour otherwise
-			
 			if (!empty_neighbours.empty()) {
+				if(motos_vecinas.empty()){ //si no hay motos vecinas
+					set<int> empty_safe;
+					bfs_dist2(empty_neighbours, empty_safe); //miramos vecinos seguros para evitar choques entre pilotos
+					if(not empty_safe.empty()){
+						cerr << "soy la moto " << my_bike.id << endl;
+						cerr << "estoy en: " << my_bike.vertex << endl;
+						cerr << "puedo ir a: ";
+						set<int>::iterator it;
+						for(it = empty_safe.begin(); it != empty_safe.end(); it++) cerr << *it << ' ';
+						cerr << endl;
+						//assert(0);
+						movement.next_vertex = *empty_safe.begin();
+					}
+					else{
+						cerr << "no vecino seguro" << endl;
+						 movement.next_vertex = empty_neighbours[ rand() % (int)empty_neighbours.size() ];
+					 }
+				 }else{
+					 
+					 cerr << "cuidado possible crash!!! con "  << endl;
+					 set<int> safe_loc;
+					 safe_loc = evitar_choque(empty_neighbours, motos_vecinas);
+					 cerr << "no me estrellaré si voy a  "; 
+					 set<int>::iterator it;
+					 for(it = safe_loc.begin(); it != safe_loc.end(); it++) cerr << *it << ' ';
+					 if(not safe_loc.empty()){
+						  int ir_a = rand() % (int)safe_loc.size();
+						  int contador = 0;
 				
-				set<int> empty_safe;
-				bfs_dist2(empty_neighbours, empty_safe); //miramos vecinos seguros para evitar choques entre pilotos
-				if(not empty_safe.empty()){
-					cerr << "soy la moto " << my_bike.id << endl;
-					cerr << "estoy en: " << my_bike.vertex << endl;
-					cerr << "puedo ir a: ";
-					set<int>::iterator it;
-					for(it = empty_safe.begin(); it != empty_safe.end(); it++) cerr << *it << ' ';
-					cerr << endl;
-					//assert(0);
-					movement.next_vertex = *empty_safe.begin();
-				}
-				else{
-					cerr << "no vecino seguro" << endl;
-					 movement.next_vertex = empty_neighbours[ rand() % (int)empty_neighbours.size() ];
+						  for(it = safe_loc.begin(); it != safe_loc.end(); it++){
+							  if(contador == ir_a)  movement.next_vertex = *it;
+							  else contador++;
+						  }
+					  }
+					 else{ //evitar crashes entre mis pilotos a toda costa
+						 movement.next_vertex = empty_neighbours[ rand() % (int)empty_neighbours.size() ];
+					 }
 				 }
 				
 			} else {
