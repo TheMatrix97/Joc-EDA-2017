@@ -7,7 +7,15 @@ info: loading player Dummy
 info: players loaded
 info: start round 1
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 26
+26 28 31 1 94 98 101 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 30
+30 31 1 94 98 101 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -31,7 +39,15 @@ info: updating board
 info: end round 2
 info: start round 3
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 24
+24 28 31 1 94 98 101 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 32
+32 1 94 98 101 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -55,7 +71,15 @@ info: updating board
 info: end round 4
 info: start round 5
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 35
+35 36 34 94 98 101 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 59
+59 57 161 160 101 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -79,7 +103,15 @@ info: updating board
 info: end round 6
 info: start round 7
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 39
+39 38 95 97 100 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 63
+63 61 161 98 101 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -103,7 +135,15 @@ info: updating board
 info: end round 8
 info: start round 9
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 41
+41 93 97 100 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 65
+65 64 61 161 98 101 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -113,6 +153,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 1 crashed!
+Destroying bike 1
 info: end round 9
 info: start round 10
 info:     start player 0
@@ -127,7 +169,15 @@ info: updating board
 info: end round 10
 info: start round 11
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 95
+95 97 100 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 148
+148 110 111 109 116 118 125 127 134 136 139 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -151,7 +201,15 @@ info: updating board
 info: end round 12
 info: start round 13
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 99
+99 100 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 149
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -175,7 +233,15 @@ info: updating board
 info: end round 14
 info: start round 15
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 101
+101 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 147
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -185,8 +251,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 1 crashed!
-Destroying bike 1
 info: end round 15
 info: start round 16
 info:     start player 0
@@ -201,7 +265,15 @@ info: updating board
 info: end round 16
 info: start round 17
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 141
+141 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 113
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -211,6 +283,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 7 crashed!
+Destroying bike 7
 info: end round 17
 info: start round 18
 info:     start player 0
@@ -225,8 +299,15 @@ info: updating board
 info: end round 18
 info: start round 19
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 139
+139 8 fin
 PELIGRO COLISION
-PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 111
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -235,8 +316,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 7 crashed!
-Destroying bike 7
+Kaboom! Bike 6 crashed!
+Destroying bike 6
 info: end round 19
 info: start round 20
 info:     start player 0
@@ -251,7 +332,15 @@ info: updating board
 info: end round 20
 info: start round 21
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 140
+140 8 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 108
+108 103 145 143 136 138 137 156 100 8 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -275,7 +364,15 @@ info: updating board
 info: end round 22
 info: start round 23
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 138
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 110
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -285,8 +382,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 6 crashed!
-Destroying bike 6
+Kaboom! Bike 5 crashed!
+Destroying bike 5
 info: end round 23
 info: start round 24
 info:     start player 0
@@ -301,7 +398,15 @@ info: updating board
 info: end round 24
 info: start round 25
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 137
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 106
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -325,7 +430,15 @@ info: updating board
 info: end round 26
 info: start round 27
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 135
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 104
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -349,7 +462,15 @@ info: updating board
 info: end round 28
 info: start round 29
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 134
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 146
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -373,7 +494,15 @@ info: updating board
 info: end round 30
 info: start round 31
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 136
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 159
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -383,8 +512,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 5 crashed!
-Destroying bike 5
 info: end round 31
 info: start round 32
 info:     start player 0
@@ -399,7 +526,15 @@ info: updating board
 info: end round 32
 info: start round 33
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 143
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 161
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -423,7 +558,15 @@ info: updating board
 info: end round 34
 info: start round 35
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 145
+-1 fin
 PELIGRO COLISION
+el bonus esta aqui: 8
+hay: 162
+estoy en : 160
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -447,6 +590,14 @@ info: updating board
 info: end round 36
 info: start round 37
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 103
+-1 fin
+el bonus esta aqui: 8
+hay: 162
+estoy en : 98
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -470,6 +621,15 @@ info: updating board
 info: end round 38
 info: start round 39
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 102
+-1 fin
+no vecino libre
+el bonus esta aqui: 8
+hay: 162
+estoy en : 96
+-1 fin
 PELIGRO COLISION
 info:     end player 0
 info:     start player 1
@@ -479,6 +639,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 0 crashed!
+Destroying bike 0
 info: end round 39
 info: start round 40
 info:     start player 0
@@ -493,7 +655,11 @@ info: updating board
 info: end round 40
 info: start round 41
 info:     start player 0
-no vecino libre
+el bonus esta aqui: 8
+hay: 162
+estoy en : 94
+94 34 38 95 99 101 8 fin
+PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -502,8 +668,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 0 crashed!
-Destroying bike 0
 info: end round 41
 info: start round 42
 info:     start player 0
@@ -518,7 +682,11 @@ info: updating board
 info: end round 42
 info: start round 43
 info:     start player 0
-no vecino libre
+el bonus esta aqui: 8
+hay: 162
+estoy en : 57
+57 1 34 38 95 99 101 8 fin
+PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -527,8 +695,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 4 crashed!
-Destroying bike 4
 info: end round 43
 info: start round 44
 info:     start player 0
@@ -543,6 +709,11 @@ info: updating board
 info: end round 44
 info: start round 45
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 61
+-1 fin
+PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -551,8 +722,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 3 crashed!
-Destroying bike 3
 info: end round 45
 info: start round 46
 info:     start player 0
@@ -567,6 +736,10 @@ info: updating board
 info: end round 46
 info: start round 47
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 64
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -589,6 +762,11 @@ info: updating board
 info: end round 48
 info: start round 49
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 9
+-1 fin
+no vecino libre
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -597,6 +775,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 4 crashed!
+Destroying bike 4
 info: end round 49
 info: start round 50
 info:     start player 0
@@ -663,6 +843,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 3 crashed!
+Destroying bike 3
 info: end round 55
 info: start round 56
 info:     start player 0
@@ -905,8 +1087,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 2 crashed!
-Destroying bike 2
 info: end round 77
 info: start round 78
 info:     start player 0
@@ -2029,6 +2209,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 2 crashed!
+Destroying bike 2
 info: end round 179
 info: start round 180
 info:     start player 0
