@@ -38,23 +38,8 @@ struct PLAYER_NAME : public Player {
      * You have to read the board and place your actions
      * for this round.
      */
-     /*
-	void busqueda_cami(int ini,vector<bool>&vis,list<int> &recc, int bonus){ //dfs busqueda bonuses
-		if(not vis[ini]){
-			vis[ini] = true;
-			recc.push_back(ini);
-			if (ini == bonus) return;
-			vector<int> vecinos;
-			vecinos = vertex(ini).neighbours;
-			for(int i = 0; i < (int)vecinos.size();i++){
-				if(vertex(vecinos[i]).wall == -1)
-					busqueda_cami(vecinos[i],vis,recc,bonus);
-				}
-			}
-		}
-	
-	*/
-	list<int> busqueda_cami(int ini, int bonus){
+
+	list<int> busqueda_cami(int ini, int bonus){ //BFS CAMINS MINIMS
 		vector<bool> vis(nb_vertices(),false);
 		queue< list<int> > cola;
 		list<int> aux;
