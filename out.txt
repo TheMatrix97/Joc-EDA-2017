@@ -11,12 +11,11 @@ el bonus esta aqui: 8
 hay: 162
 estoy en : 26
 26 28 31 1 94 98 101 8 fin
-PELIGRO COLISION
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
 estoy en : 30
 30 31 1 94 98 101 8 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -41,14 +40,14 @@ info: start round 3
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 24
-24 28 31 1 94 98 101 8 fin
-PELIGRO COLISION
+estoy en : 19
+19 27 29 59 57 161 160 101 8 fin
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
 estoy en : 32
 32 1 94 98 101 8 fin
-PELIGRO COLISION
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -73,14 +72,13 @@ info: start round 5
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 35
-35 36 34 94 98 101 8 fin
-PELIGRO COLISION
+estoy en : 22
+22 25 60 59 57 161 160 101 8 fin
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
-estoy en : 59
-59 57 161 160 101 8 fin
-PELIGRO COLISION
+estoy en : 29
+29 59 57 161 160 101 8 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -105,14 +103,13 @@ info: start round 7
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 39
-39 38 95 97 100 8 fin
-PELIGRO COLISION
+estoy en : 5
+5 58 62 63 61 159 144 141 8 fin
 el bonus esta aqui: 8
 hay: 162
-estoy en : 63
-63 61 161 98 101 8 fin
-PELIGRO COLISION
+estoy en : 60
+60 59 57 161 160 101 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -137,14 +134,14 @@ info: start round 9
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 41
-41 93 97 100 8 fin
-PELIGRO COLISION
+estoy en : 66
+66 149 148 106 9 146 144 141 8 fin
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
-estoy en : 65
-65 64 61 161 98 101 8 fin
-PELIGRO COLISION
+estoy en : 59
+59 57 161 160 101 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -153,8 +150,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 1 crashed!
-Destroying bike 1
 info: end round 9
 info: start round 10
 info:     start player 0
@@ -171,14 +166,13 @@ info: start round 11
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 95
-95 97 100 8 fin
-PELIGRO COLISION
+estoy en : 149
+149 148 106 9 146 144 141 8 fin
 el bonus esta aqui: 8
 hay: 162
-estoy en : 148
-148 110 111 109 116 118 125 127 134 136 139 8 fin
-PELIGRO COLISION
+estoy en : 57
+57 161 160 101 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -187,6 +181,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 6 crashed!
+Destroying bike 6
 info: end round 11
 info: start round 12
 info:     start player 0
@@ -203,14 +199,14 @@ info: start round 13
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 99
-99 100 8 fin
-PELIGRO COLISION
+estoy en : 62
+62 63 61 159 144 141 8 fin
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
-estoy en : 149
--1 fin
-PELIGRO COLISION
+estoy en : 161
+161 160 101 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -235,14 +231,13 @@ info: start round 15
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 101
-101 8 fin
-PELIGRO COLISION
+estoy en : 63
+63 61 159 144 141 8 fin
+sigo mi camino
 el bonus esta aqui: 8
 hay: 162
-estoy en : 147
--1 fin
-PELIGRO COLISION
+estoy en : 160
+160 141 8 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -267,14 +262,12 @@ info: start round 17
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 141
-141 8 fin
-PELIGRO COLISION
+estoy en : 61
+61 64 146 144 143 139 8 fin
 el bonus esta aqui: 8
 hay: 162
-estoy en : 113
--1 fin
-PELIGRO COLISION
+estoy en : 159
+159 144 143 139 8 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -283,8 +276,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 7 crashed!
-Destroying bike 7
+Kaboom! Bike 5 crashed!
+Destroying bike 5
 info: end round 17
 info: start round 18
 info:     start player 0
@@ -301,13 +294,12 @@ info: start round 19
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 139
-139 8 fin
-PELIGRO COLISION
+estoy en : 64
+64 9 104 145 143 139 8 fin
 el bonus esta aqui: 8
 hay: 162
-estoy en : 111
--1 fin
+estoy en : 146
+146 145 143 139 8 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -316,8 +308,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 6 crashed!
-Destroying bike 6
 info: end round 19
 info: start round 20
 info:     start player 0
@@ -334,14 +324,12 @@ info: start round 21
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 140
-140 8 fin
-PELIGRO COLISION
+estoy en : 65
+-1 fin
 el bonus esta aqui: 8
 hay: 162
-estoy en : 108
-108 103 145 143 136 138 137 156 100 8 fin
-PELIGRO COLISION
+estoy en : 104
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -366,14 +354,12 @@ info: start round 23
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 138
+estoy en : 148
 -1 fin
-PELIGRO COLISION
 el bonus esta aqui: 8
 hay: 162
-estoy en : 110
+estoy en : 108
 -1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -382,8 +368,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 5 crashed!
-Destroying bike 5
 info: end round 23
 info: start round 24
 info:     start player 0
@@ -400,14 +384,12 @@ info: start round 25
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 137
+estoy en : 147
 -1 fin
-PELIGRO COLISION
 el bonus esta aqui: 8
 hay: 162
-estoy en : 106
+estoy en : 103
 -1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -432,14 +414,13 @@ info: start round 27
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 135
+estoy en : 110
 -1 fin
-PELIGRO COLISION
 el bonus esta aqui: 8
 hay: 162
-estoy en : 104
+estoy en : 145
 -1 fin
-PELIGRO COLISION
+no vecino libre
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -448,6 +429,10 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 4 crashed!
+Kaboom! Bike 1 crashed!
+Destroying bike 1
+Destroying bike 4
 info: end round 27
 info: start round 28
 info:     start player 0
@@ -464,14 +449,8 @@ info: start round 29
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 134
+estoy en : 106
 -1 fin
-PELIGRO COLISION
-el bonus esta aqui: 8
-hay: 162
-estoy en : 146
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -496,14 +475,8 @@ info: start round 31
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 136
+estoy en : 108
 -1 fin
-PELIGRO COLISION
-el bonus esta aqui: 8
-hay: 162
-estoy en : 159
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -528,14 +501,8 @@ info: start round 33
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 143
+estoy en : 104
 -1 fin
-PELIGRO COLISION
-el bonus esta aqui: 8
-hay: 162
-estoy en : 161
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -560,14 +527,8 @@ info: start round 35
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 145
+estoy en : 146
 -1 fin
-PELIGRO COLISION
-el bonus esta aqui: 8
-hay: 162
-estoy en : 160
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -592,13 +553,8 @@ info: start round 37
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 103
+estoy en : 159
 -1 fin
-el bonus esta aqui: 8
-hay: 162
-estoy en : 98
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -623,14 +579,8 @@ info: start round 39
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 102
+estoy en : 161
 -1 fin
-no vecino libre
-el bonus esta aqui: 8
-hay: 162
-estoy en : 96
--1 fin
-PELIGRO COLISION
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -639,8 +589,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 0 crashed!
-Destroying bike 0
 info: end round 39
 info: start round 40
 info:     start player 0
@@ -657,9 +605,8 @@ info: start round 41
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 94
-94 34 38 95 99 101 8 fin
-PELIGRO COLISION
+estoy en : 160
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -684,9 +631,8 @@ info: start round 43
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 57
-57 1 34 38 95 99 101 8 fin
-PELIGRO COLISION
+estoy en : 98
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -695,6 +641,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 3 crashed!
+Destroying bike 3
 info: end round 43
 info: start round 44
 info:     start player 0
@@ -711,9 +659,9 @@ info: start round 45
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 61
--1 fin
-PELIGRO COLISION
+estoy en : 99
+99 100 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -738,8 +686,9 @@ info: start round 47
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 64
--1 fin
+estoy en : 100
+100 8 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -764,9 +713,9 @@ info: start round 49
 info:     start player 0
 el bonus esta aqui: 8
 hay: 162
-estoy en : 9
+estoy en : 8
 -1 fin
-no vecino libre
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -775,8 +724,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 4 crashed!
-Destroying bike 4
+Kaboom! Bike 2 crashed!
+Destroying bike 2
 info: end round 49
 info: start round 50
 info:     start player 0
@@ -791,6 +740,11 @@ info: updating board
 info: end round 50
 info: start round 51
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 139
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -813,6 +767,11 @@ info: updating board
 info: end round 52
 info: start round 53
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 136
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -835,6 +794,11 @@ info: updating board
 info: end round 54
 info: start round 55
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 132
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -843,8 +807,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 3 crashed!
-Destroying bike 3
 info: end round 55
 info: start round 56
 info:     start player 0
@@ -859,6 +821,11 @@ info: updating board
 info: end round 56
 info: start round 57
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 123
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -881,6 +848,11 @@ info: updating board
 info: end round 58
 info: start round 59
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 114
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -903,6 +875,11 @@ info: updating board
 info: end round 60
 info: start round 61
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 118
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -925,6 +902,11 @@ info: updating board
 info: end round 62
 info: start round 63
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 121
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -947,6 +929,10 @@ info: updating board
 info: end round 64
 info: start round 65
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 2
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -969,6 +955,10 @@ info: updating board
 info: end round 66
 info: start round 67
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 124
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -991,6 +981,10 @@ info: updating board
 info: end round 68
 info: start round 69
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 154
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -999,6 +993,8 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
+Kaboom! Bike 7 crashed!
+Destroying bike 7
 info: end round 69
 info: start round 70
 info:     start player 0
@@ -1013,6 +1009,11 @@ info: updating board
 info: end round 70
 info: start round 71
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 128
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1035,6 +1036,11 @@ info: updating board
 info: end round 72
 info: start round 73
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 153
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1057,6 +1063,11 @@ info: updating board
 info: end round 74
 info: start round 75
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 155
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1079,6 +1090,11 @@ info: updating board
 info: end round 76
 info: start round 77
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 76
+-1 fin
+sigo mi camino
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1101,6 +1117,10 @@ info: updating board
 info: end round 78
 info: start round 79
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 10
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1123,6 +1143,10 @@ info: updating board
 info: end round 80
 info: start round 81
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 84
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1145,6 +1169,10 @@ info: updating board
 info: end round 82
 info: start round 83
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 88
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1167,6 +1195,10 @@ info: updating board
 info: end round 84
 info: start round 85
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 91
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1189,6 +1221,10 @@ info: updating board
 info: end round 86
 info: start round 87
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 131
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1211,6 +1247,10 @@ info: updating board
 info: end round 88
 info: start round 89
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 130
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1233,6 +1273,10 @@ info: updating board
 info: end round 90
 info: start round 91
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 135
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1255,6 +1299,10 @@ info: updating board
 info: end round 92
 info: start round 93
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 138
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1277,6 +1325,10 @@ info: updating board
 info: end round 94
 info: start round 95
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 140
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1299,6 +1351,10 @@ info: updating board
 info: end round 96
 info: start round 97
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 156
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1321,6 +1377,10 @@ info: updating board
 info: end round 98
 info: start round 99
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 158
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1343,6 +1403,10 @@ info: updating board
 info: end round 100
 info: start round 101
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 157
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1365,6 +1429,10 @@ info: updating board
 info: end round 102
 info: start round 103
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 137
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1387,6 +1455,10 @@ info: updating board
 info: end round 104
 info: start round 105
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 133
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1409,6 +1481,10 @@ info: updating board
 info: end round 106
 info: start round 107
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 92
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1431,6 +1507,10 @@ info: updating board
 info: end round 108
 info: start round 109
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 90
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1453,6 +1533,10 @@ info: updating board
 info: end round 110
 info: start round 111
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 89
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1475,6 +1559,10 @@ info: updating board
 info: end round 112
 info: start round 113
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 87
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1497,6 +1585,10 @@ info: updating board
 info: end round 114
 info: start round 115
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 86
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1519,6 +1611,10 @@ info: updating board
 info: end round 116
 info: start round 117
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 50
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1541,6 +1637,10 @@ info: updating board
 info: end round 118
 info: start round 119
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 49
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1563,6 +1663,10 @@ info: updating board
 info: end round 120
 info: start round 121
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 53
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1585,6 +1689,10 @@ info: updating board
 info: end round 122
 info: start round 123
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 55
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1607,6 +1715,10 @@ info: updating board
 info: end round 124
 info: start round 125
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 56
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1629,6 +1741,10 @@ info: updating board
 info: end round 126
 info: start round 127
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 77
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1651,6 +1767,10 @@ info: updating board
 info: end round 128
 info: start round 129
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 81
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1673,6 +1793,10 @@ info: updating board
 info: end round 130
 info: start round 131
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 83
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1695,6 +1819,10 @@ info: updating board
 info: end round 132
 info: start round 133
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 82
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1717,6 +1845,10 @@ info: updating board
 info: end round 134
 info: start round 135
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 150
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1739,6 +1871,10 @@ info: updating board
 info: end round 136
 info: start round 137
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 152
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1761,6 +1897,10 @@ info: updating board
 info: end round 138
 info: start round 139
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 151
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1783,6 +1923,10 @@ info: updating board
 info: end round 140
 info: start round 141
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 119
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1805,6 +1949,10 @@ info: updating board
 info: end round 142
 info: start round 143
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 122
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1827,6 +1975,10 @@ info: updating board
 info: end round 144
 info: start round 145
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 120
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1849,6 +2001,10 @@ info: updating board
 info: end round 146
 info: start round 147
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 117
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1871,6 +2027,10 @@ info: updating board
 info: end round 148
 info: start round 149
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 116
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1893,6 +2053,10 @@ info: updating board
 info: end round 150
 info: start round 151
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 109
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1915,6 +2079,10 @@ info: updating board
 info: end round 152
 info: start round 153
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 112
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1937,6 +2105,10 @@ info: updating board
 info: end round 154
 info: start round 155
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 115
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1959,6 +2131,10 @@ info: updating board
 info: end round 156
 info: start round 157
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 74
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1981,6 +2157,10 @@ info: updating board
 info: end round 158
 info: start round 159
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 73
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2003,6 +2183,10 @@ info: updating board
 info: end round 160
 info: start round 161
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 113
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2025,6 +2209,10 @@ info: updating board
 info: end round 162
 info: start round 163
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 111
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2047,6 +2235,10 @@ info: updating board
 info: end round 164
 info: start round 165
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 107
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2069,6 +2261,10 @@ info: updating board
 info: end round 166
 info: start round 167
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 105
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2091,6 +2287,10 @@ info: updating board
 info: end round 168
 info: start round 169
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 102
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2113,6 +2313,10 @@ info: updating board
 info: end round 170
 info: start round 171
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 142
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2135,6 +2339,10 @@ info: updating board
 info: end round 172
 info: start round 173
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 145
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2157,6 +2365,10 @@ info: updating board
 info: end round 174
 info: start round 175
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 144
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2179,6 +2391,10 @@ info: updating board
 info: end round 176
 info: start round 177
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 143
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2201,6 +2417,10 @@ info: updating board
 info: end round 178
 info: start round 179
 info:     start player 0
+el bonus esta aqui: 8
+hay: 162
+estoy en : 141
+-1 fin
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2209,8 +2429,6 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: updating board
-Kaboom! Bike 2 crashed!
-Destroying bike 2
 info: end round 179
 info: start round 180
 info:     start player 0

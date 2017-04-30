@@ -141,18 +141,6 @@ struct PLAYER_NAME : public Player {
 				if(vertex(id).bike != -1) motos_vecinas.push_back(id);
 			}
 				
-			//test bfs
-			list<int> recc;
-			vector<int>bonus = bonus_vertices();
-			cerr << "el bonus esta aqui: " << bonus[1] << endl;
-			cerr << "hay: " << nb_vertices() << endl;
-			cerr << "estoy en : " << my_bike.vertex << endl;
-			recc = busqueda_cami(my_bike.vertex,bonus[1]);
-			 while(not recc.empty()){
-				cerr << recc.front() << ' ';
-				recc.pop_front();
-			}
-			cerr << "fin" << endl;
 			
 					
 			// Create an empty movement
@@ -170,7 +158,7 @@ struct PLAYER_NAME : public Player {
 						if(siguiente_nodo == *it and siguiente_nodo != -1) fin = true;
 						else it++;
 					}
-					if(fin){movement.next_vertex = siguiente_nodo; cerr << "sigo mi camino" << endl;} //se puede ir, es seguro
+					if(fin) movement.next_vertex = siguiente_nodo; //se puede ir, es seguro
 					else{ //no es seguro, si la ronda > bonus round nos la jugamos, si no pues a un vecino seguro
 						if(round() >= bonus_round() and siguiente_nodo != -1) movement.next_vertex = siguiente_nodo;
 						else{//vamos a un vecino random 
@@ -191,7 +179,7 @@ struct PLAYER_NAME : public Player {
 				} 
 				
 			} else {
-				cerr << "no vecino libre" << endl; //muerte segura, igual se puede evitar con ghost
+			
 				if(my_bike.bonus == Ghost) movement.use_bonus = true;
 				//estaria guay poder prever possibles choques entre otros pilotos y evitar que se quede encerrado
 				movement.next_vertex = neighbours[ rand() % (int)neighbours.size() ];
