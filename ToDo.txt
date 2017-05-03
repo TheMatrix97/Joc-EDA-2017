@@ -1,0 +1,3 @@
+implementar un radar parair a la zona menos poblada de paredes
+implementar un uso mas inteligente del turbo, perdiendo y muchas rondas
+mejorar la busqueda de caminos, hay que evitar que 2 motos vayan al mismo sitio si hay mas de un camino bonus possible, optimiza y no se obstruyen
