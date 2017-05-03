@@ -140,7 +140,7 @@ struct PLAYER_NAME : public Player {
 				}
 				if(vertex(id).bike != -1) motos_vecinas.push_back(id);
 			}
-				
+			/*	
 			//test bfs
 			list<int> recc;
 			vector<int>bonus = bonus_vertices();
@@ -152,7 +152,7 @@ struct PLAYER_NAME : public Player {
 				cerr << recc.front() << ' ';
 				recc.pop_front();
 			}
-			cerr << "fin" << endl;
+			cerr << "fin" << endl;*/
 			
 					
 			// Create an empty movement
