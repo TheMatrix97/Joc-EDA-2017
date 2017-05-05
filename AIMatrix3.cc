@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <set>
 #include <list>
-
+#include <map>
 using namespace std;
 
 /**
@@ -38,6 +38,7 @@ struct PLAYER_NAME : public Player {
      * You have to read the board and place your actions
      * for this round.
      */
+    vector<int> direccion;
      
 
 	list<int> busqueda_cami(int ini, int bonus){ //BFS CAMINS MINIMS
@@ -68,18 +69,26 @@ struct PLAYER_NAME : public Player {
 					
 			
 	}
-	
-	
-	int calcular_camino_bonus(int ini){ //las 2 motos van al mismo bonus, se pueden molestar, que vayan a diferentes si hay mas de un camino valido
+
+	int calcular_camino_bonus(int ini,  vector<int> &my_bikes){ //las 2 motos van al mismo bonus, se pueden molestar, que vayan a diferentes si hay mas de un camino valido
 		list<int> recc;
+		std::map<int,list<int> > todos_cam;
 		vector<int> bonus = bonus_vertices();
 		for(int i = 0; i < (int)bonus.size(); i++){
 			recc = busqueda_cami(ini,bonus[i]);
 			int aux = recc.front();
 			recc.pop_front();
-			if(aux != -1) return recc.front();
+			if(aux != -1){
+				for(int i = 0; i < (int)my_bikes.size(); i++){
+					int my_id = vertex(ini).bike;
+					if(my_bikes[i] != my_id and direccion[my_bikes[i]] != direccion[my_id]) todos_cam.insert(make_pair(recc.size(), recc));
+				}
+			} 
 		}
-		return -1;
+		std::map<int,list<int> >::iterator aux = todos_cam.begin();
+		cerr << "voy a " << aux->second.front() << " estoy en: " << ini << endl;
+		if(aux != todos_cam.end()) return aux->second.front();
+		else return -1;
 	}
 		
 
@@ -111,7 +120,9 @@ struct PLAYER_NAME : public Player {
 		
 		
     void play () {
-		
+
+    	if(round() == 0) direccion = vector<int>(nb_bikes(),-1); //si ronda 0 inicializamos el vector que contiene todas las motos, solo nos interesan las nuestras
+
         vector<int> my_bikes = bikes(me());
         for (int i = 0; i < (int)my_bikes.size(); ++i) {
 			
@@ -163,7 +174,7 @@ struct PLAYER_NAME : public Player {
 				set<int>::iterator it = vecinos_seguros.begin();
 				if(not vecinos_seguros.empty()){ //vamos a un pos random valida
 					//evitar efecto random, recalculador de la ruta para ir a un punto especifico(bonus)
-					int siguiente_nodo = calcular_camino_bonus(my_bike.vertex); //siguiente nodo es un vecni seguro?
+					int siguiente_nodo = calcular_camino_bonus(my_bike.vertex,my_bikes); //siguiente nodo es un vecni seguro?
 					bool fin = false;
 					while(it != vecinos_seguros.end() and not fin){
 						if(siguiente_nodo == *it and siguiente_nodo != -1) fin = true;

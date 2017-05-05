@@ -1,8 +1,8 @@
 AIDemo.o: AIDemo.cc Player.hh Utils.hh BackTrace.hh Board.hh Action.hh \
  Registry.hh
-AIMatrix.o: AIMatrix.cc Player.hh Utils.hh BackTrace.hh Board.hh \
- Action.hh Registry.hh
 AIMatrix2.o: AIMatrix2.cc Player.hh Utils.hh BackTrace.hh Board.hh \
+ Action.hh Registry.hh
+AIMatrix3.o: AIMatrix3.cc Player.hh Utils.hh BackTrace.hh Board.hh \
  Action.hh Registry.hh
 AIMatrixJ.o: AIMatrixJ.cc Player.hh Utils.hh BackTrace.hh Board.hh \
  Action.hh Registry.hh
