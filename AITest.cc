@@ -212,6 +212,7 @@ struct PLAYER_NAME : public Player {
 						if(neighbours[i] != my_bike.vertex) vecinos_sin_owner.push_back(neighbours[i]);
 					}
 					movement.next_vertex = vecinos_sin_owner[rand() % (int)vecinos_sin_owner.size()]; 
+					movement.use_bonus = true;
 				} 
 				
 				else movement.next_vertex = neighbours[ rand() % (int)neighbours.size() ];
