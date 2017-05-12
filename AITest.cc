@@ -73,10 +73,12 @@ struct PLAYER_NAME : public Player {
 		list<int> recc;
 		vector<int> bonus = bonus_vertices();
 		for(int i = 0; i < (int)bonus.size(); i++){
-			recc = busqueda_cami(ini,bonus[i]);
-			int aux = recc.front();
-			recc.pop_front();
-			if(aux != -1) return recc.front();
+			if(vertex(bonus[i]).bonus != None){
+				recc = busqueda_cami(ini,bonus[i]);
+				int aux = recc.front();
+				recc.pop_front();
+				if(aux != -1) return recc.front();
+			}
 		}
 		return -1;
 	}
@@ -139,7 +141,7 @@ struct PLAYER_NAME : public Player {
 			}
 		}
 	}	
-	int test_bfs(set<int> &vecinos_seguros){ //devuelve el vertex con mas caminos
+	int test_bfs_set(set<int> &vecinos_seguros){ //devuelve el vertex con mas caminos
 		set<int>::iterator it;
 		int max_i = *vecinos_seguros.begin();
 		int max_pathv = 0;
@@ -153,6 +155,23 @@ struct PLAYER_NAME : public Player {
 			}
 			cerr << "TEST BFS: " << endl;
 			cerr << "vecino: " << *it << " max_path = " << max << endl;
+		}
+		return max_i;
+
+	}
+	int test_bfs_vec(vector<int> &vecinos_seguros){ //devuelve el vertex con mas caminos
+		int max_i = vecinos_seguros[0];
+		int max_pathv = 0;
+		for(int i = 0; i < (int)vecinos_seguros.size(); i++){
+			int max = 0;
+			vector<int> dist(nb_vertices(),-1);
+			max_path(vecinos_seguros[i],dist,max);
+			if(max > max_pathv){
+				max_pathv = max;
+				max_i = vecinos_seguros[i];
+			}
+			cerr << "TEST BFS: " << endl;
+			cerr << "vecino: " << vecinos_seguros[i] << " max_path = " << max << endl;
 		}
 		return max_i;
 
@@ -196,13 +215,23 @@ struct PLAYER_NAME : public Player {
 			if (!empty_neighbours.empty()) { //mirar si tenemos una moto vecina, despues mirar si hay vecinos compartidos
 				set<int> vecinos_seguros = validar_vecinos(empty_neighbours,my_bike.id);
 				set<int>::iterator it = vecinos_seguros.begin();
-				if(not vecinos_seguros.empty()){ //vamos a un pos random valida
-					movement.next_vertex = test_bfs(vecinos_seguros);
+				if(round() >= bonus_round() - 5){
+					set<int>::iterator it = vecinos_seguros.begin();
+					int siguiente_nodo = calcular_camino_bonus(my_bike.vertex);
+					if(not vecinos_seguros.empty()){
+						bool fin = false;
+						while(it != vecinos_seguros.end() and not fin){
+							if(siguiente_nodo == *it and siguiente_nodo != -1) fin = true;
+							else it++;
+						}
+						if(fin) movement.next_vertex = siguiente_nodo;
+						else movement.next_vertex = test_bfs_set(vecinos_seguros);
+					}
+					else movement.next_vertex = test_bfs_vec(empty_neighbours);
+				}else{
+					if(not vecinos_seguros.empty()) movement.next_vertex = test_bfs_set(vecinos_seguros);
+					else movement.next_vertex = test_bfs_vec(empty_neighbours);
 				}
-				else{
-					movement.next_vertex = empty_neighbours[ rand() % (int)empty_neighbours.size() ];
-					
-				} 
 				
 			} else {
 				cerr << "no vecino libre" << endl; //muerte segura, igual se puede evitar con ghost
@@ -214,7 +243,6 @@ struct PLAYER_NAME : public Player {
 					movement.next_vertex = vecinos_sin_owner[rand() % (int)vecinos_sin_owner.size()]; 
 					movement.use_bonus = true;
 				} 
-				
 				else movement.next_vertex = neighbours[ rand() % (int)neighbours.size() ];
 			}
 			
@@ -231,6 +259,7 @@ struct PLAYER_NAME : public Player {
 					movement.use_bonus = true;
 				}
 			}
+			
 
 				
 			

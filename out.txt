@@ -1,0 +1,763 @@
+==3805== Memcheck, a memory error detector
+==3805== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==3805== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==3805== Command: ./Game Matrix2v1 Dummy Dummy Dummy
+==3805== 
+info: loading game
+info: loaded game
+info: loading player Matrix2v1
+info: loading player Dummy
+info: loading player Dummy
+info: loading player Dummy
+info: players loaded
+info: start round 1
+info:     start player 0
+TEST BFS: 
+vecino: 15 max_path = 11
+TEST BFS: 
+vecino: 19 max_path = 10
+TEST BFS: 
+vecino: 24 max_path = 11
+TEST BFS: 
+vecino: 29 max_path = 10
+TEST BFS: 
+vecino: 31 max_path = 11
+TEST BFS: 
+vecino: 32 max_path = 11
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 1
+info: start round 2
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 2
+info: start round 3
+info:     start player 0
+TEST BFS: 
+vecino: 0 max_path = 12
+TEST BFS: 
+vecino: 12 max_path = 11
+TEST BFS: 
+vecino: 17 max_path = 10
+TEST BFS: 
+vecino: 19 max_path = 11
+TEST BFS: 
+vecino: 24 max_path = 12
+TEST BFS: 
+vecino: 1 max_path = 12
+TEST BFS: 
+vecino: 28 max_path = 11
+TEST BFS: 
+vecino: 32 max_path = 11
+TEST BFS: 
+vecino: 34 max_path = 11
+TEST BFS: 
+vecino: 36 max_path = 11
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 3
+info: start round 4
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 4
+info: start round 5
+info:     start player 0
+TEST BFS: 
+vecino: 12 max_path = 11
+TEST BFS: 
+vecino: 24 max_path = 12
+TEST BFS: 
+vecino: 33 max_path = 11
+TEST BFS: 
+vecino: 42 max_path = 11
+TEST BFS: 
+vecino: 32 max_path = 11
+TEST BFS: 
+vecino: 34 max_path = 11
+TEST BFS: 
+vecino: 57 max_path = 11
+TEST BFS: 
+vecino: 94 max_path = 11
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 5
+info: start round 6
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 6
+info: start round 7
+info:     start player 0
+TEST BFS: 
+vecino: 28 max_path = 11
+TEST BFS: 
+vecino: 33 max_path = 11
+TEST BFS: 
+vecino: 35 max_path = 11
+TEST BFS: 
+vecino: 29 max_path = 10
+TEST BFS: 
+vecino: 57 max_path = 11
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 7
+info: start round 8
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 8
+info: start round 9
+info:     start player 0
+TEST BFS: 
+vecino: 35 max_path = 11
+TEST BFS: 
+vecino: 36 max_path = 12
+TEST BFS: 
+vecino: 61 max_path = 11
+TEST BFS: 
+vecino: 94 max_path = 11
+TEST BFS: 
+vecino: 161 max_path = 11
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 9
+info: start round 10
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 10
+info: start round 11
+info:     start player 0
+TEST BFS: 
+vecino: 34 max_path = 13
+TEST BFS: 
+vecino: 35 max_path = 12
+TEST BFS: 
+vecino: 38 max_path = 12
+TEST BFS: 
+vecino: 39 max_path = 11
+TEST BFS: 
+vecino: 159 max_path = 16
+TEST BFS: 
+vecino: 161 max_path = 15
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+Kaboom! Bike 2 crashed!
+Destroying bike 2
+info: end round 11
+info: start round 12
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 12
+info: start round 13
+info:     start player 0
+TEST BFS: 
+vecino: 38 max_path = 12
+TEST BFS: 
+vecino: 94 max_path = 11
+TEST BFS: 
+vecino: 96 max_path = 11
+TEST BFS: 
+vecino: 144 max_path = 11
+TEST BFS: 
+vecino: 160 max_path = 12
+TEST BFS: 
+vecino: 161 max_path = 12
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+Kaboom! Bike 5 crashed!
+Destroying bike 5
+info: end round 13
+info: start round 14
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 14
+info: start round 15
+info:     start player 0
+TEST BFS: 
+vecino: 39 max_path = 11
+TEST BFS: 
+vecino: 41 max_path = 12
+TEST BFS: 
+vecino: 95 max_path = 12
+TEST BFS: 
+vecino: 96 max_path = 12
+TEST BFS: 
+vecino: 98 max_path = 12
+TEST BFS: 
+vecino: 144 max_path = 12
+TEST BFS: 
+vecino: 161 max_path = 13
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 15
+info: start round 16
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 16
+info: start round 17
+info:     start player 0
+TEST BFS: 
+vecino: 7 max_path = 13
+TEST BFS: 
+vecino: 39 max_path = 12
+TEST BFS: 
+vecino: 40 max_path = 12
+TEST BFS: 
+vecino: 93 max_path = 14
+TEST BFS: 
+vecino: 95 max_path = 15
+TEST BFS: 
+vecino: 94 max_path = 17
+TEST BFS: 
+vecino: 98 max_path = 17
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 17
+info: start round 18
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 18
+info: start round 19
+info:     start player 0
+TEST BFS: 
+vecino: 93 max_path = 14
+TEST BFS: 
+vecino: 97 max_path = 15
+TEST BFS: 
+vecino: 99 max_path = 16
+TEST BFS: 
+vecino: 98 max_path = 17
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 19
+info: start round 20
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 20
+info: start round 21
+info:     start player 0
+TEST BFS: 
+vecino: 97 max_path = 15
+TEST BFS: 
+vecino: 100 max_path = 16
+TEST BFS: 
+vecino: 101 max_path = 17
+TEST BFS: 
+vecino: 96 max_path = 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 21
+info: start round 22
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 22
+info: start round 23
+info:     start player 0
+TEST BFS: 
+vecino: 97 max_path = 15
+TEST BFS: 
+vecino: 141 max_path = 1
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 23
+info: start round 24
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 24
+info: start round 25
+info:     start player 0
+TEST BFS: 
+vecino: 93 max_path = 14
+no vecino libre
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+Kaboom! Bike 4 crashed!
+Kaboom! Bike 3 crashed!
+Destroying bike 3
+Destroying bike 4
+info: end round 25
+info: start round 26
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 26
+info: start round 27
+info:     start player 0
+TEST BFS: 
+vecino: 7 max_path = 12
+TEST BFS: 
+vecino: 85 max_path = 12
+TEST BFS: 
+vecino: 158 max_path = 13
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 27
+info: start round 28
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 28
+info: start round 29
+info:     start player 0
+TEST BFS: 
+vecino: 85 max_path = 12
+TEST BFS: 
+vecino: 89 max_path = 12
+TEST BFS: 
+vecino: 156 max_path = 8
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 29
+info: start round 30
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 30
+info: start round 31
+info:     start player 0
+TEST BFS: 
+vecino: 7 max_path = 13
+TEST BFS: 
+vecino: 43 max_path = 12
+TEST BFS: 
+vecino: 87 max_path = 12
+TEST BFS: 
+vecino: 89 max_path = 13
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+Kaboom! Bike 1 crashed!
+Destroying bike 1
+info: end round 31
+info: start round 32
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 32
+info: start round 33
+info:     start player 0
+TEST BFS: 
+vecino: 40 max_path = 15
+TEST BFS: 
+vecino: 43 max_path = 14
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 33
+info: start round 34
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 34
+info: start round 35
+info:     start player 0
+TEST BFS: 
+vecino: 37 max_path = 14
+TEST BFS: 
+vecino: 39 max_path = 15
+TEST BFS: 
+vecino: 43 max_path = 15
+TEST BFS: 
+vecino: 45 max_path = 14
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 35
+info: start round 36
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 36
+info: start round 37
+info:     start player 0
+TEST BFS: 
+vecino: 35 max_path = 14
+TEST BFS: 
+vecino: 37 max_path = 14
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 37
+info: start round 38
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 38
+info: start round 39
+info:     start player 0
+TEST BFS: 
+vecino: 33 max_path = 14
+TEST BFS: 
+vecino: 37 max_path = 14
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 39
+info: start round 40
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 40
+info: start round 41
+info:     start player 0
+TEST BFS: 
+vecino: 37 max_path = 15
+TEST BFS: 
+vecino: 42 max_path = 14
+TEST BFS: 
+vecino: 44 max_path = 14
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 41
+info: start round 42
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 42
+info: start round 43
+info:     start player 0
+TEST BFS: 
+vecino: 44 max_path = 16
+TEST BFS: 
+vecino: 45 max_path = 16
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 43
+info: start round 44
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 44
+info: start round 45
+info:     start player 0
+TEST BFS: 
+vecino: 42 max_path = 18
+TEST BFS: 
+vecino: 45 max_path = 18
+TEST BFS: 
+vecino: 46 max_path = 17
+TEST BFS: 
+vecino: 48 max_path = 17
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 45
+info: start round 46
+info:     start player 0
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: updating board
+info: end round 46
+info: start round 47
+info:     start player 0
+==3805== Invalid read of size 4
+==3805==    at 0x805B37E: Matrix2v1::play() (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==    by 0x8052588: Game::run(std::vector<std::string, std::allocator<std::string> >, std::istream&, std::ostream&) (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==    by 0x804AA14: main (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==3805== 
+==3805== 
+==3805== Process terminating with default action of signal 11 (SIGSEGV)
+==3805==  Access not within mapped region at address 0x10
+==3805==    at 0x805B37E: Matrix2v1::play() (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==    by 0x8052588: Game::run(std::vector<std::string, std::allocator<std::string> >, std::istream&, std::ostream&) (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==    by 0x804AA14: main (in /home/matrixuni/eda/Joc-EDA-2017/Game)
+==3805==  If you believe this happened as a result of a stack
+==3805==  overflow in your program's main thread (unlikely but
+==3805==  possible), you can try to increase the size of the
+==3805==  main thread stack using the --main-stacksize= flag.
+==3805==  The main thread stack size used in this run was 8388608.
+==3805== 
+==3805== HEAP SUMMARY:
+==3805==     in use at exit: 69,319 bytes in 1,060 blocks
+==3805==   total heap usage: 35,862 allocs, 34,802 frees, 2,158,021 bytes allocated
+==3805== 
+==3805== LEAK SUMMARY:
+==3805==    definitely lost: 0 bytes in 0 blocks
+==3805==    indirectly lost: 0 bytes in 0 blocks
+==3805==      possibly lost: 179 bytes in 9 blocks
+==3805==    still reachable: 69,140 bytes in 1,051 blocks
+==3805==         suppressed: 0 bytes in 0 blocks
+==3805== Rerun with --leak-check=full to see details of leaked memory
+==3805== 
+==3805== For counts of detected and suppressed errors, rerun with: -v
+==3805== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
