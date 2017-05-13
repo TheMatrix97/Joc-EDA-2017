@@ -11,7 +11,7 @@ using namespace std;
  * Write the name of your player and save this file
  * with a name matching the format "AIyourname.cc".
  */
-#define PLAYER_NAME Matrix2v1
+#define PLAYER_NAME MatrixMaster
 
 
 struct PLAYER_NAME : public Player {
@@ -38,7 +38,7 @@ struct PLAYER_NAME : public Player {
      * You have to read the board and place your actions
      * for this round.
      */
-     
+   typedef pair<int,int>P;
 
 	list<int> busqueda_cami(int ini, int bonus){ //BFS CAMINS MINIMS
 		vector<bool> vis(nb_vertices(),false);
@@ -125,6 +125,7 @@ struct PLAYER_NAME : public Player {
 			 * EN EL SCREEN LAS MOTOS NO SE ESQUIVAN PORK NO SON VECINAS*/
 	void max_path(int i, vector<int> dist, int &max){
 		queue<int> v; //cola bfs de vertices a visitar
+		
 		dist[i] = 0;
 		v.push(i);
 		while(not v.empty()){
@@ -136,14 +137,17 @@ struct PLAYER_NAME : public Player {
 					v.push(vecinos[i]);
 					dist[vecinos[i]] = dist[ref] + 1;
 					if(dist[vecinos[i]] > max) max = dist[vecinos[i]];
-
 				}
+				
+
+				
 			}
 		}
 	}	
 	int test_bfs_set(set<int> &vecinos_seguros){ //devuelve el vertex con mas caminos
 		set<int>::iterator it;
 		int max_i = *vecinos_seguros.begin();
+		vector<P> res; //first -> dist, second = i
 		int max_pathv = 0;
 		for(it = vecinos_seguros.begin(); it != vecinos_seguros.end(); it++){
 			int max = 0;
@@ -153,15 +157,26 @@ struct PLAYER_NAME : public Player {
 				max_pathv = max;
 				max_i = *it;
 			}
-			cerr << "TEST BFS: " << endl;
-			cerr << "vecino: " << *it << " max_path = " << max << endl;
+			P aux;
+			aux.first = max;
+			aux.second = *it;
+			res.push_back(aux);
+		/*	cerr << "TEST BFS: " << endl;
+			cerr << "vecino: " << *it << " max_path = " << max << endl;*/
 		}
-		return max_i;
+		vector<int> respuestas;
+		for(int i = 0; i < (int)res.size(); i++){
+			if(res[i].first == max_pathv)respuestas.push_back(res[i].second);
+		}
+			 
+		if((int)respuestas.size() > 0) return respuestas[rand() % (int)respuestas.size()];
+		else return max_i;
 
 	}
 	int test_bfs_vec(vector<int> &vecinos_seguros){ //devuelve el vertex con mas caminos
 		int max_i = vecinos_seguros[0];
 		int max_pathv = 0;
+		vector<P> res; //first -> dist, second = i
 		for(int i = 0; i < (int)vecinos_seguros.size(); i++){
 			int max = 0;
 			vector<int> dist(nb_vertices(),-1);
@@ -170,10 +185,21 @@ struct PLAYER_NAME : public Player {
 				max_pathv = max;
 				max_i = vecinos_seguros[i];
 			}
-			cerr << "TEST BFS: " << endl;
-			cerr << "vecino: " << vecinos_seguros[i] << " max_path = " << max << endl;
+			P aux;
+			aux.first = max;
+			aux.second = vecinos_seguros[i];
+			res.push_back(aux);
+		/*	cerr << "TEST BFS: " << endl;
+			cerr << "vecino: " << vecinos_seguros[i] << " max_path = " << max << endl;*/
 		}
-		return max_i;
+		//PROBLEMA
+		vector<int> respuestas;
+		for(int i = 0; i < (int)res.size(); i++){
+			if(res[i].first == max_pathv)respuestas.push_back(res[i].second);
+		}
+			 
+		if((int)respuestas.size() > 0) return respuestas[rand() % (int)respuestas.size()];
+		else return max_i;
 
 	}	
 		
@@ -234,7 +260,7 @@ struct PLAYER_NAME : public Player {
 				}
 				
 			} else {
-				cerr << "no vecino libre" << endl; //muerte segura, igual se puede evitar con ghost
+				//cerr << "no vecino libre" << endl; //muerte segura, igual se puede evitar con ghost
 				if(my_bike.bonus == Ghost){
 					vector<int> vecinos_sin_owner;
 					for(int i = 0; i < (int)neighbours.size();i++){
